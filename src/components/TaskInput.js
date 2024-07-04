@@ -33,7 +33,7 @@ const TaskInput = () => {
         onChange={(e) => setTimeLimit(e.target.value)}
         placeholder="Time limit (e.g., 2 hours)"
       />
-      <button onClick={handleAddTask}>Add Task</button>
+      <button1 onClick={handleAddTask}>Add Task</button1>
     </div>
   );
 };
